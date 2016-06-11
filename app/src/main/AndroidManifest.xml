@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.guiadecanales"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.guiadecanales.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.guiadecanales.CategoriasActivity"
+            android:label="@string/title_activity_categorias" >
+        </activity>
+        <activity
+            android:name="com.example.guiadecanales.CanalesActivity"
+            android:label="@string/title_activity_canales" >
+        </activity>
+        <activity
+            android:name="com.example.guiadecanales.InfantilesActivity"
+            android:label="@string/title_activity_infantiles" >
+        </activity>
+        <activity
+            android:name="com.example.guiadecanales.DeportivoActivity"
+            android:label="@string/title_activity_deportivo" >
+        </activity>
+        <activity
+            android:name="com.example.guiadecanales.NoticiasActivity"
+            android:label="@string/title_activity_noticias" >
+        </activity>
+        <activity
+            android:name="com.example.guiadecanales.NovelasActivity"
+            android:label="@string/title_activity_novelas" >
+        </activity>
+        <activity
+            android:name="com.example.guiadecanales.SeriesActivity"
+            android:label="@string/title_activity_series" >
+        </activity>
+        <activity
+            android:name="com.example.guiadecanales.RedunoActivity"
+            android:label="@string/title_activity_reduno" >
+        </activity>
+        <activity
+            android:name="com.example.guiadecanales.UnitelActivity"
+            android:label="@string/title_activity_unitel" >
+        </activity>
+        <activity
+            android:name="com.example.guiadecanales.AtbActivity"
+            android:label="@string/title_activity_atb" >
+        </activity>
+        <activity
+            android:name="com.example.guiadecanales.BolivisionActivity"
+            android:label="@string/title_activity_bolivision" >
+        </activity>
+        <activity
+            android:name="com.example.guiadecanales.PatActivity"
+            android:label="@string/title_activity_pat" >
+        </activity>
+        <activity
+            android:name="com.example.guiadecanales.CadenaaActivity"
+            android:label="@string/title_activity_cadenaa" >
+        </activity>
+        <activity
+            android:name="com.example.guiadecanales.TvuActivity"
+            android:label="@string/title_activity_tvu" >
+        </activity>
+    </application>
+
+</manifest>

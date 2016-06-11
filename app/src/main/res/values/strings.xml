@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GUIA DE CANALES</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_categorias">MainActivity</string>
+    <string name="title_activity_canales">MainActivity</string>
+    <string name="title_activity_infantiles">MainActivity</string>
+    <string name="title_activity_deportivo">MainActivity</string>
+    <string name="title_activity_noticias">MainActivity</string>
+    <string name="title_activity_novelas">MainActivity</string>
+    <string name="title_activity_series">MainActivity</string>
+    <string name="title_activity_reduno">MainActivity</string>
+    <string name="title_activity_unitel">MainActivity</string>
+    <string name="title_activity_atb">MainActivity</string>
+    <string name="title_activity_bolivision">MainActivity</string>
+    <string name="title_activity_pat">MainActivity</string>
+    <string name="title_activity_cadenaa">MainActivity</string>
+    <string name="title_activity_tvu">MainActivity</string>
+
+</resources>

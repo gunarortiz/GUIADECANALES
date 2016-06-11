@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    
+	>
+	<ImageView 
+	    android:layout_marginTop="20dp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="200dp"
+	    android:src="@drawable/puercoesp"
+	    android:layout_gravity="center_horizontal"
+	    android:id="@+id/ivPrincipal"
+	    />
+	<HorizontalScrollView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    >
+	    <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+	        <ImageView 
+	    android:layout_width="150dp"
+	    android:layout_height="150dp"
+	    android:src="@drawable/pajarito"
+	    android:layout_gravity="center_horizontal"
+	    android:id="@+id/ivPajarito"
+	    />
+
+	        <ImageView
+	            android:id="@+id/ivPatito"
+	            android:layout_width="150dp"
+	            android:layout_height="150dp"
+	            android:paddingLeft="15dp"
+	            android:src="@drawable/patito" />
+
+	        <ImageView 
+	    android:layout_width="150dp"
+	    android:layout_height="150dp"
+	    android:src="@drawable/perro1"
+	    android:layout_gravity="center_horizontal"
+	    android:id="@+id/ivPerro1"
+	    android:paddingLeft="15dp"
+	    />
+	        <ImageView 
+	    android:layout_width="150dp"
+	    android:layout_height="150dp"
+	    android:src="@drawable/polluelo"
+	    android:layout_gravity="center_horizontal"
+	    android:id="@+id/ivPolluelo"
+	    android:paddingLeft="15dp"
+	    />
+	        
+	    </LinearLayout>
+	</HorizontalScrollView>
+
+   <Button 
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="CATEGORIAS"
+       android:id="@+id/botoncategorias"/>
+   
+   <Button 
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="CANALES DE TV"
+       android:id="@+id/botoncategorias"/>
+</LinearLayout>
